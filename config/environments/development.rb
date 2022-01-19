@@ -50,6 +50,9 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
+  if ENV["RAILS_CORS_HOST"].present?
+    config.cors_host = 'http://localhost:3001'
+  end
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
