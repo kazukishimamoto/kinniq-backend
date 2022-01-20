@@ -89,6 +89,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
+    pg (1.2.3)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -156,6 +157,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
+  pg
   pry-rails
   puma (~> 5.0)
   rack-cors
